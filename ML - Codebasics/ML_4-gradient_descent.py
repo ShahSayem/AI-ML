@@ -1,5 +1,6 @@
-import numpy as np
 import math
+
+import numpy as np
 
 # y = mx + b
 # we have to find here the closest valu of m, b to  the actual value of m, b
@@ -24,7 +25,7 @@ def gradient_descent(x, y):
 
         print(f'm: {m_curr}, b: {b_curr}, cost: {cost}, iteration: {i+1}')
 
-        is_matched = math.isclose(cost, prev_cost, rel_tol = 1e-09, abs_tol = 0.0)
+        is_matched = math.isclose(cost, prev_cost, rel_tol = 1e-9, abs_tol = 0.0)
         if(is_matched):
             break
 
