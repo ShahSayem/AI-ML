@@ -12,14 +12,14 @@ from langchain.document_loaders import (PyPDFLoader, TextLoader,
                                         UnstructuredExcelLoader)
 
 
-""" 
-Gemini Pro free to use limit:
-    15 RPM (requests per minute)
 
-    32,000 TPM (tokens per minute)
+# Gemini 1.5 Flash free to use limit:
+#     30 RPM (requests per minute)
 
-    1,500 RPD (requests per day)
-"""
+#     1,000,000 TPM (tokens per minute)
+
+#     1,500 RPD (requests per day)
+
 
 # Load environment variables
 load_dotenv()
@@ -27,7 +27,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv('Google_API_KEY'))
 
 # Load Gemini Pro model
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 chat = model.start_chat(history=[])
 
 
