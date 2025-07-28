@@ -1,0 +1,94 @@
+# =================================================================
+# Core Deep Learning Frameworks
+# =================================================================
+tensorflow
+torch
+torchvision
+
+# =================================================================
+# For using pre-trained models and utilities (especially for CV)
+# =================================================================
+tensorflow-hub
+timm
+
+# =================================================================
+# Data Science & Numerical Operations
+# =================================================================
+numpy
+pandas
+scikit-learn
+scipy
+
+# =================================================================
+# Image & Data Processing/Augmentation
+# =================================================================
+Pillow
+opencv-python-headless
+albumentations
+
+# =================================================================
+# Plotting and Visualization
+# =================================================================
+matplotlib
+seaborn
+
+# =================================================================
+# For running notebooks
+# =================================================================
+jupyter
+notebook
+
+# =================================================================
+# Recommended Additions for Advanced Research & MLOps
+# =================================================================
+
+# For handling imbalanced datasets
+imbalanced-learn
+
+# For hyperparameter optimization
+optuna
+
+# For experiment tracking and reproducibility
+wandb
+
+# For Explainable AI (XAI)
+shap
+lime
+
+# For medical image formats
+pydicom
+nibabel
+
+# =================================================================
+# For AI and Large Language Model (LLM) Projects
+# =================================================================
+
+# The core library from Hugging Face for models, pipelines, and tokenizers
+transformers
+
+# For easily loading and processing datasets from the Hugging Face Hub
+datasets
+
+# For efficient text tokenization
+tokenizers
+
+# To easily run training/inference on any hardware (CPU, GPU, multi-GPU)
+accelerate
+
+# For model quantization (e.g., running large models in 4-bit or 8-bit)
+bitsandbytes
+
+# For creating sentence and text embeddings
+sentence-transformers
+
+# A framework for building applications powered by LLMs (e.g., RAG, agents)
+langchain
+
+# For efficient similarity search in vector databases (essential for RAG)
+# Choose one depending on your hardware:
+faiss-cpu
+# faiss-gpu
+
+# For quickly building simple web UIs and demos for your models
+gradio
+streamlit
