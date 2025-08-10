@@ -92,3 +92,10 @@ faiss-cpu
 # For quickly building simple web UIs and demos for your models
 gradio
 streamlit
+
+# Selenium & Beautifulsoup4 for web scraping and automation
+selenium
+beautifulsoup4
+
+# Pytube for working with YouTube videos
+pytube
